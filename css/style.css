@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+
+nav {
+	width: 100%;
+	height: 60px;
+	background-color: black;
+}
+
+nav #nav-left {
+	float: left;
+}
+
+nav ul h1 {
+	color: white;
+	display: inline-table;
+	padding-top: 17px;
+	padding-left: 195px;
+	list-style: none;
+}
+
+nav ul li {
+	text-align: center;
+	display: inline-table;
+	text-decoration: none;
+	list-style: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	padding-left: 30px;
+}
+
+nav #nav-right {
+	float: right;
+	margin-top: 10px;
+	margin-right: 180px;
+
+}
+
+
+nav #nav-center {
+	text-align: center;
+}
+
+#nav-center form {
+	padding-top: 20px;
+	padding-right: 200px;
+}
+
+form input[type=searchbox] {
+	width: 200px;
+	height: 20px;
+}
+
+.container {
+	margin-left: 195px;
+	width: 980px;
+	height: 50px;
+}
+
+.container ul li {
+	list-style: none;
+	display: inline-table;
+	float: left;
+	font-size: 10px;
+	padding-right: 40px;
+}
+
+
+.banner img {
+	margin-top: 20px;
+	width: 980px;
+	height: 450px;
+}
+
+.content-1 {
+	float: left;
+	display: block;
+}
+
+.content-1 ul li {
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.content-1 ul li img{
+	float: left;
+	display: inline-table;
+	margin-top: 2px;
+}
+
+
+.content-2 {
+	width: 980px;
+	height: 60px;
+	background: black;
+	text-align: center;
+}
+
+.content-2  img {
+	list-style: none;
+	margin-top: 2px;
+}
+
+.banner-2 {
+	display: inline-table;
+	margin-top: 20px;
+}
+
+.banner-2 img {
+	width: 980px;
+	height: auto;
+}
+
+.banner-3 {
+	margin-top: 20px;
+}
+
+.banner-3 img {
+	width: 980px;
+	height: auto;
+}
+
+.content-3 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.box {
+	margin-top: 40px;
+	width: 200px;
+	height: 500px;
+	background: transparent;
+	display: inline-table;
+	float: left;
+}
+
+p {
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+.box #box1 {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-right: 7px;
+}
+
+
+.box #box2 {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-right: 7px;
+}
+
+.box #box3 {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.content-3 .box h3 {
+	padding-top: 20px;
+}
